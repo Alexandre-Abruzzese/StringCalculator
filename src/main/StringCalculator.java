@@ -15,6 +15,7 @@ public class StringCalculator {
         {
             return (number);
         }
+        //condition who check the sum with two parameters and without dot
         else
         {
            while (i < number.length())
