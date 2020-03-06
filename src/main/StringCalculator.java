@@ -8,6 +8,7 @@ public class StringCalculator {
         {
             return "0";
         }
+        //condition who check the sum with one parameter (return it)
         else
         {
             return (number);
