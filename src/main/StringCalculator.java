@@ -22,7 +22,8 @@ public class StringCalculator {
            {
                if (number.charAt(i) == '.')
                {
-                   return ("Warning dot");
+                   String[] tab = number.split(",");
+                   return Double.toString(Double.parseDouble(tab[0]) + Double.parseDouble(tab[1]));
                }
                i++;
            }

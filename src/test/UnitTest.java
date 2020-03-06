@@ -8,7 +8,7 @@ import static org.junit.Assert.assertThat;
 
 public class UnitTest {
     private static final StringCalculator stringcalculator = new StringCalculator();
-    public String number = "3,2";
+    public String number = "3.2,2.4";
 
     @Test
     public void should_return_zero_if_string_is_empty()
