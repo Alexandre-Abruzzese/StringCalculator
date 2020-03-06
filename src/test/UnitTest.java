@@ -27,4 +27,10 @@ public class UnitTest {
     {
         assertThat(stringcalculator.add(number), equalTo("5"));
     }
+
+    @Test
+    public void should_return_sum_of_the_string_with_two_parameters_and_with_dot()
+    {
+        assertThat(stringcalculator.add(number), equalTo("5.6"));
+    }
 }
