@@ -20,6 +20,7 @@ public class StringCalculator {
         {
            while (i < number.length())
            {
+               //condition who check the sum with two parameters and with dot
                if (number.charAt(i) == '.')
                {
                    String[] tab = number.split(",");
